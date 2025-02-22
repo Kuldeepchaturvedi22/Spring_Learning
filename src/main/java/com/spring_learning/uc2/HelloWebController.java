@@ -1,4 +1,4 @@
-package com.spring_learning.uc1;
+package com.spring_learning.uc2;
 
 
 import org.springframework.stereotype.Controller;
