@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "d854abf6-79c3-4d63-925d-e92ce82f1abc",
+		"name": "spring_learning_api_calls",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42520297"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/web",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/web",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"web"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/web/message",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/web/message",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"web",
+						"message"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
